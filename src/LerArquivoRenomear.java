@@ -14,7 +14,6 @@ public class LerArquivoRenomear {
         System.out.println("::Listener:: arquivo path::" + arquivo.toPath());
 
         int indiceBarra = arquivo.getPath().lastIndexOf("\\") + 1;
-        System.out.println("::Listener:: indiceBarra::" + indiceBarra);
 
         if (indiceBarra == 0) {
             indiceBarra = arquivo.getCanonicalPath().lastIndexOf("/") + 1;
